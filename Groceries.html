@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grocery Store</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .card {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .h2:hover{
+        background-color: lightgreen;
+    }
+    .card:hover{
+        box-shadow: 0px 0px 15px black;
+    }
+
+    .card-body {
+        text-align: left;
+    }
+    .product-title {
+        font-weight: bold;
+        color: #333;
+    }
+    .price {
+        color: #28a745;
+        font-weight: bold;
+    }
+    .discount {
+        color: #dc3545;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body style="margin-bottom: 500px;">
+
+<div class="container mt-5">
+    <h2 class="text-center mb-5 display-1 bg-warning">Groceries</h2>
+    <div class="row">
+        <!-- Row 1 -->
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/7118wOf8uyL._AC_UF1000,1000_QL80_.jpg" class="img-fluid" alt="Rice">
+                <div class="card-body">
+                    <h5 class="product-title">Rice (1 kg)</h5>
+                    <p class="price">$5.99</p>
+                    <p class="discount">10% OFF</p>
+                    <p class="card-text">High-quality basmati rice for everyday meals.</p>
+                    <button class="btn btn-outline-success btn-sm">more>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQgzghEXHaR0d8tdZ5aJxEH17guRB1rhYSad-8RQpONGcAYsJglRA2BZQi3MUs4Bo2n4jtUyYA1EG-NDbxoc7GXaq7bO8qM91TiyL1Boo-lk3h3cb2JH4lBUw" class="card-img-top" alt="Wheat Flour" height="210px">
+                <div class="card-body">
+                    <h5 class="product-title">Wheat Flour (1 kg)</h5>
+                    <p class="price">$3.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Premium whole wheat flour for soft chapatis and bread.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://www.bigbasket.com/media/uploads/p/xl/271035-2_4-freedom-refined-oil-sunflower.jpg" class="card-img-top" alt="Cooking Oil" height="210">
+                <div class="card-body">
+                    <h5 class="product-title">Cooking Oil (1 L)</h5>
+                    <p class="price">$4.99</p>
+                    <p class="discount">8% OFF</p>
+                    <p class="card-text">Healthy cooking oil, perfect for frying and sautéing.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/71wjSz+A4JL.jpg" class="card-img-top" alt="Sugar" height="230px">
+                <div class="card-body">
+                    <h5 class="product-title">Sugar (1 kg)</h5>
+                    <p class="price">$2.99</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Pure and refined sugar for all your sweet recipes.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81Jv9RTTQUL.jpg" class="card-img-top" alt="Salt">
+                <div class="card-body">
+                    <h5 class="product-title">Salt (1 kg)</h5>
+                    <p class="price">$1.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Iodized salt essential for daily health.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://www.bigbasket.com/media/uploads/p/xxl/148715_2-amul-toned-milk.jpg" class="card-img-top" alt="Milk">
+                <div class="card-body">
+                    <h5 class="product-title">Milk (1 L)</h5>
+                    <p class="price">$1.20</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Fresh milk for a nutritious and delicious experience.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://www.kroger.com/product/images/large/front/0088742200008" class="card-img-top" alt="Rice" height="210">
+                <div class="card-body">
+                    <h5 class="product-title">Eggs (Dozen)</h5>
+                    <p class="price">$2.99</p>
+                    <p class="discount">0% OFF</p>
+                    <p class="card-text">Farm-fresh eggs rich in protein, essential for a balanced diet.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://dlecta.com/cdn/shop/files/1_c473cd85-d859-4b48-b04b-4c6cf1662b52.jpg?v=1703933364&width=900" class="card-img-top" alt="Wheat Flour" height="210px">
+                <div class="card-body">
+                    <h5 class="product-title">Cheese (200g)</h5>
+                    <p class="price">$2.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Soft and rich cheese, perfect for sandwiches and pasta dishes.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://cdnasd.countrydelight.in/cdproductimg/new-website/TomatoDesi-pdp.jpg_1723791939200.jpg" class="card-img-top" alt="Cooking Oil">
+                <div class="card-body">
+                    <h5 class="product-title">Tomatoes (1 kg)</h5>
+                    <p class="price">$4.99</p>
+                    <p class="discount">8% OFF</p>
+                    <p class="card-text"> Fresh, juicy tomatoes, ideal for salads, sauces, and cooking.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://www.jiomart.com/images/product/original/590003515/onion-1-kg-product-images-o590003515-p590003515-1-202408070949.jpg?im=Resize=(420,420)" class="card-img-top" alt="Sugar">
+                <div class="card-body">
+                    <h5 class="product-title">Onions (1 kg)</h5>
+                    <p class="price">$2.99</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Red onions, a kitchen staple for adding flavor to various dishes.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://shop.jobellesupplies.co.ke/wp-content/uploads/2019/01/Potatoes_560x560-jobelle.jpg" class="card-img-top" alt="Salt">
+                <div class="card-body">
+                    <h5 class="product-title">Potatoes (1 kg)</h5>
+                    <p class="price">$4.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Fresh potatoes, versatile and ideal for boiling, frying, or baking.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://spar2u.lk/cdn/shop/files/Kolikuttubanana_458x595.jpg?v=1714653899" class="card-img-top" alt="Milk" height="230">
+                <div class="card-body">
+                    <h5 class="product-title">Bananas (Dozen)</h5>
+                    <p class="price">$3.20</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Fresh BAnnana, delicious and nutritious, perfect for snacks and desserts.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6IjZmMmI2ODIwZjJjODdlYTliZTgyOGM4NTE3NGEwNGRlLnBuZyIsInN0b3JhZ2UiOiJwdWJsaWNfc3RvcmUifQ?signature=6806e37efecfb2a754438c6b428c977e21c311369f44cb2bee492ad25c74277c" class="card-img-top" alt="Rice">
+                <div class="card-body">
+                    <h5 class="product-title">Apples (1 kg)</h5>
+                    <p class="price">$5.99</p>
+                    <p class="discount">10% OFF</p>
+                    <p class="card-text">Fresh apples, delicious and nutritious, perfect for snacks and desserts.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://smartyield.in/wp-content/uploads/2021/06/Carrot-.png" class="card-img-top" alt="Wheat Flour">
+                <div class="card-body">
+                    <h5 class="product-title">Carrots (1 kg)</h5>
+                    <p class="price">$7.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Fresh carrots full of vitamins, ideal for salads, soups, and stews.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://organicmandya.com/cdn/shop/files/Broccoli.jpg?v=1721371046&width=1000" class="card-img-top" alt="Cooking Oil">
+                <div class="card-body">
+                    <h5 class="product-title">Broccoli (500g)</h5>
+                    <p class="price">$4.99</p>
+                    <p class="discount">8% OFF</p>
+                    <p class="card-text">Fresh and nutritious broccoli, perfect for healthy meals and sides.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://organicmela.in/Media/Default/Thumbs/0000/0000554-spinach-palak-1-bunch.jpg" class="card-img-top" alt="Sugar">
+                <div class="card-body">
+                    <h5 class="product-title">Spinach (1 bunch)</h5>
+                    <p class="price">$2.99</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Leafy spinach rich in iron, ideal for salads, soups, and cooking.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/312acBUVvoL.jpg" class="card-img-top" alt="Salt">
+                <div class="card-body">
+                    <h5 class="product-title">Oranges (1 kg)</h5>
+                    <p class="price">$5.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Juicy oranges full of vitamin C, perfect for fresh juice or snacking.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://img.cdnx.in/29558/1619240957153_SKU-0063_0.png?width=600" class="card-img-top" alt="Milk" height="210">
+                <div class="card-body">
+                    <h5 class="product-title">Cucumbers (1 kg)</h5>
+                    <p class="price">$4.20</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Cool and refreshing cucumbers, ideal for salads, sandwiches, and snacks.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/QI/LI/VN/106270270/eggplant-500x500.jpg" class="card-img-top" alt="Salt" height="235">
+                <div class="card-body">
+                    <h5 class="product-title">Eggplant (1 kg)</h5>
+                    <p class="price">$1.50</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Soft and versatile eggplant, great for grilling, roasting, and curries.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-12">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA6sTFK1nRqFQXn67tvu-jdVEq5n1fH6NxLg&s" class="card-img-top" alt="Milk" height="235">
+                <div class="card-body">
+                    <h5 class="product-title">Green Beans (500g)</h5>
+                    <p class="price">$1.20</p>
+                    <p class="discount">5% OFF</p>
+                    <p class="card-text">Fresh green beans, perfect for steaming, stir-fries, and casseroles.</p>
+                    <button class="btn btn-outline-success btn-sm">More>></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

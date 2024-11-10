@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container a{
+  margin-left: 0px;
+  
+}
+
+nav{
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+.container1{
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  animation-name: moving-text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes moving-text{
+
+0%{
+  background-color: limegreen;
+}
+20%{
+  background-color: orange;
+}
+40%{
+  background-color: lightblue;
+}
+60%{
+  background-color: blueviolet;
+}
+80%{
+  background-color: teal;
+}
+100%{
+  background-color: limegreen;
+}
+
+}
+
+.container1 marquee{
+    
+  font-family: "Permanent Marker",cursive;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+.container .card{
+  background-color: rgba(158, 153, 150, 0.5);
+}
+
+.container .card:hover{
+  box-shadow: 0px 0px 15px black;
+}
+
+/*-------Modal-----------*/
+
+.form .m:hover{
+        box-shadow: 0px 0px 10px black;
+        background-color: gray;
+}
+
+.container5 a i:hover{
+  box-shadow: 0px 0px 10px black;
+}
+
+/*----------For Follow Message-------------*/
+.follow{
+  
+    font-family: "Pirata One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
